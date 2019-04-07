@@ -275,40 +275,33 @@
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RCTLinking;
 		};
-		79DFEE99225970C6003196A5 /* PBXContainerItemProxy */ = {
+		79831D012259AD3A004D0E72 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EDEBC6D6214B3E7000DD5AC8;
 			remoteInfo = jsi;
 		};
-		79DFEE9B225970C6003196A5 /* PBXContainerItemProxy */ = {
+		79831D032259AD3A004D0E72 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EDEBC73B214B45A300DD5AC8;
 			remoteInfo = jsiexecutor;
 		};
-		79DFEE9D225970C6003196A5 /* PBXContainerItemProxy */ = {
+		79831D052259AD3A004D0E72 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = ED296FB6214C9A0900B7C4FE;
 			remoteInfo = "jsi-tvOS";
 		};
-		79DFEE9F225970C6003196A5 /* PBXContainerItemProxy */ = {
+		79831D072259AD3A004D0E72 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = ED296FEE214C9CF800B7C4FE;
 			remoteInfo = "jsiexecutor-tvOS";
-		};
-		79DFEEA4225970C9003196A5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D2AD461FABD34C029D58817D /* RNCAsyncStorage.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = RNCAsyncStorage;
 		};
 		832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -524,10 +517,10 @@
 				2DF0FFE52056DD460020B375 /* libthird-party.a */,
 				2DF0FFE72056DD460020B375 /* libdouble-conversion.a */,
 				2DF0FFE92056DD460020B375 /* libdouble-conversion.a */,
-				79DFEE9A225970C6003196A5 /* libjsi.a */,
-				79DFEE9C225970C6003196A5 /* libjsiexecutor.a */,
-				79DFEE9E225970C6003196A5 /* libjsi-tvOS.a */,
-				79DFEEA0225970C6003196A5 /* libjsiexecutor-tvOS.a */,
+				79831D022259AD3A004D0E72 /* libjsi.a */,
+				79831D042259AD3A004D0E72 /* libjsiexecutor.a */,
+				79831D062259AD3A004D0E72 /* libjsi-tvOS.a */,
+				79831D082259AD3A004D0E72 /* libjsiexecutor-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1033,39 +1026,32 @@
 			remoteRef = 78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		79DFEE9A225970C6003196A5 /* libjsi.a */ = {
+		79831D022259AD3A004D0E72 /* libjsi.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libjsi.a;
-			remoteRef = 79DFEE99225970C6003196A5 /* PBXContainerItemProxy */;
+			remoteRef = 79831D012259AD3A004D0E72 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		79DFEE9C225970C6003196A5 /* libjsiexecutor.a */ = {
+		79831D042259AD3A004D0E72 /* libjsiexecutor.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libjsiexecutor.a;
-			remoteRef = 79DFEE9B225970C6003196A5 /* PBXContainerItemProxy */;
+			remoteRef = 79831D032259AD3A004D0E72 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		79DFEE9E225970C6003196A5 /* libjsi-tvOS.a */ = {
+		79831D062259AD3A004D0E72 /* libjsi-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libjsi-tvOS.a";
-			remoteRef = 79DFEE9D225970C6003196A5 /* PBXContainerItemProxy */;
+			remoteRef = 79831D052259AD3A004D0E72 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		79DFEEA0225970C6003196A5 /* libjsiexecutor-tvOS.a */ = {
+		79831D082259AD3A004D0E72 /* libjsiexecutor-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libjsiexecutor-tvOS.a";
-			remoteRef = 79DFEE9F225970C6003196A5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79DFEEA5225970C9003196A5 /* libRNCAsyncStorage.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRNCAsyncStorage.a;
-			remoteRef = 79DFEEA4225970C9003196A5 /* PBXContainerItemProxy */;
+			remoteRef = 79831D072259AD3A004D0E72 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		832341B51AAA6A8300B99B32 /* libRCTText.a */ = {
@@ -1285,7 +1271,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.groovytree.cryptograph;
+				PRODUCT_BUNDLE_IDENTIFIER = com.groovytree.CryptoGraph;
 				PRODUCT_NAME = CryptoGraph;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1309,7 +1295,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.groovytree.cryptograph;
+				PRODUCT_BUNDLE_IDENTIFIER = com.groovytree.CryptoGraph;
 				PRODUCT_NAME = CryptoGraph;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
