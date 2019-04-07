@@ -5,11 +5,17 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "flow": "flow",
+    "clean": "watchman watch-del-all && rm -rf node_modules && yarn install && rm -rf /tmp/haste-map-react-native-packager-*"
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.2.4",
+    "flow-bin": "^0.96.0",
     "react": "16.8.3",
-    "react-native": "0.59.3"
+    "react-native": "0.59.3",
+    "react-redux": "^6.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
@@ -19,11 +25,21 @@
     "@types/react": "^16.8.12",
     "@types/react-native": "^0.57.42",
     "@types/react-test-renderer": "^16.8.1",
+    "babel-eslint": "^10.0.1",
     "babel-jest": "^24.7.1",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-import-resolver-babel-module": "^5.0.1",
+    "eslint-plugin-flowtype": "^3.5.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0",
     "jest": "^24.7.1",
     "metro-react-native-babel-preset": "^0.53.1",
     "react-native-typescript-transformer": "^1.2.12",
     "react-test-renderer": "16.8.3",
+    "reactotron-react-native": "^3.2.1",
     "ts-jest": "^24.0.2",
     "typescript": "^3.4.2"
   },
