@@ -7,15 +7,11 @@ export default class Header extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Left>
-          <Text> Pair</Text>
-        </Left>
+        <Text style={styles.headerText}>Pair</Text>
         <Body>
           <Text>Price</Text>
         </Body>
-        <Right>
-          <Text>Volume </Text>
-          </Right>
+        <Text style={styles.headerText}>Volume</Text>
       </View>
     );
   }
@@ -30,4 +26,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: '#ccc'
   },
+  headerText: {
+    padding: 20
+  }
 });

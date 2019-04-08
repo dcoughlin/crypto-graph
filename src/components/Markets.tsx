@@ -28,21 +28,17 @@ export default class Markets extends React.Component<Props> {
   render() {
     return (
       <View>
-        <List style={styles.list}>
+        <List>
           {
             this.props.priceList && this.props.priceList.map((asset) => {
               return (
-                <ListItem key={asset.name} style={{borderBottomWidth: 0, flexDirection: 'column', marginBottom: -20}}>
-                   <View style={styles.user}>
-                    <Left>
-                      <Text style={styles.assetName}>{asset.name}</Text>
-                    </Left>
+                <ListItem key={asset.name} >
+                   <View style={styles.assetRow}>
+                    <Text style={styles.assetName}>{asset.name}</Text>
                     <Body>
-                     <Text style={styles.assetPrice}>{this._formatFixed(asset.price.a[0], 2)} </Text>
-                    </Body>
-                    <Right>
-                      <Text style={styles.assetVolume}>{this._formatFixed(asset.price.v[0], 2)}</Text>
-                    </Right>
+                    <Text style={styles.assetPrice}>{this._formatFixed(asset.price.a[0], 2)}</Text>  
+                    </Body>                  
+                    <Text style={styles.assetVolume}>{this._formatFixed(asset.price.v[0], 2)}</Text>
                   </View>
                 </ListItem>
               );
@@ -64,23 +60,29 @@ const styles = StyleSheet.create({
   list: {
     margin: -15
   },
+  listItem: {
+    borderBottomWidth: 0, 
+    flexDirection: 'column', 
+    justifyContent: 'space-around',
+    alignItems: 'flex-start',
+    marginBottom: -20,
+    padding: 10,
+  },
   assetName: {
     color: 'blue',
     fontSize: 14,
   },
   assetPrice: {
     color: 'black',
-    fontSize: 12,
-    alignSelf: 'flex-start'
+    fontSize: 14,
+    alignSelf: 'center',
   },
   assetVolume: {
     color: 'black',
-    fontSize: 10,
+    fontSize: 14,
   },
-  user: {
+  assetRow: {
     flexDirection: 'row',
-    alignSelf: 'flex-start',
-    padding: 10
   },
   image: {
     width: width,
