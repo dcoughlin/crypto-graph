@@ -10,12 +10,12 @@ make run_android
 
 In development mode, the `Reactotron` module has been added so you can use the desktop app for 
 inspecting the React Native project.
-![ReactotronSample](https://user-images.githubusercontent.com/5167968/55725280-588f3180-59db-11e9-904f-2386c61c1127.png)
+![ReactotronSample2](https://user-images.githubusercontent.com/5167968/55726537-0a2f6200-59de-11e9-9fe1-dea754caad92.png)
 I've attached to the console object in the ReactotronConfig.js file:
 ```
 console.tron = Reactotron
 ```
-Now, anywhere in your app if you want to log something?
+Now, anywhere in the app if you want to log something:
 ```
 console.tron.log('Sweet Freedom!')
 ```
