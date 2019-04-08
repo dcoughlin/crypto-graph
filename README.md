@@ -5,13 +5,13 @@
 ```
 make run_ios
 make run_android
-
+```
 ## Debugging Tools
 
 In development mode, the `Reactotron` modules has been added so you can use the desktop app for 
 inspecting the React Native project.
 
-I've attached to the console object in the `ReactotronConfig.js` file:
+I've attached to the console object in the ReactotronConfig.js file:
 ```
 console.tron = Reactotron
 ```
@@ -19,8 +19,6 @@ Now, anywhere in your app if you want to log something?
 ```
 console.tron.log('Sweet Freedom!')
 ```
-
-
 ## Initial Environment Setup (if you don't have react-native installed)
 
 #### Step 0 — Install yarn and node.js
