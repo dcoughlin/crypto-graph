@@ -8,9 +8,9 @@ make run_android
 ```
 ## Debugging Tools
 
-In development mode, the `Reactotron` modules has been added so you can use the desktop app for 
+In development mode, the `Reactotron` module has been added so you can use the desktop app for 
 inspecting the React Native project.
-
+![ReactotronSample](https://user-images.githubusercontent.com/5167968/55725280-588f3180-59db-11e9-904f-2386c61c1127.png)
 I've attached to the console object in the ReactotronConfig.js file:
 ```
 console.tron = Reactotron
