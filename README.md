@@ -1,7 +1,11 @@
 ## Installation
 
 #### 1. Clone this repo
-#### 2. Run per platform via Makefile
+#### 2. Install dependencies
+```
+yarn install
+````
+#### 3. Run per platform via Makefile
 ```
 make run_ios
 make run_android
